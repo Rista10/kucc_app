@@ -4,8 +4,10 @@ import 'constants.dart';
 
 ThemeData kTheme() {
   return ThemeData(
+    primaryColor: Pallet.primaryColor,
     colorScheme: ColorScheme.fromSwatch().copyWith(
       primary: Pallet.primaryColor,
+      onPrimary: Pallet.onPrimary,
       secondary: Pallet.secondaryColor,
       background: Pallet.backgroundColor,
     ),
